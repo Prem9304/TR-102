@@ -1,5 +1,5 @@
 Daily Diary - Day 2
-Date: June 8, 2024
+Date: June 7, 2024
 Activities
 Python Basics
 Lists
