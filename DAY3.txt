@@ -1,0 +1,51 @@
+Daily Diary - Python Set Operations
+Date: 08-06-2024
+Topics Covered:
+
+Introduction to Sets
+Basic Set Operations
+Set Methods and Functions
+Set Operations using Operators
+Immutability and Sets
+Frozen Sets
+Removing Duplicates using Sets
+Real-world Applications
+Details:
+
+1. Introduction to Sets:
+
+A set in Python is a collection of distinct objects.
+Sets are unordered and elements in a set must be immutable.
+2. Basic Set Operations:
+
+Creating a set: basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
+Intersection: {1, 2, 3, 4, 5}.intersection({3, 4, 5, 6})
+Union: {1, 2, 3, 4, 5}.union({3, 4, 5, 6})
+Difference: {1, 2, 3, 4}.difference({2, 3, 5})
+Symmetric Difference: {1, 2, 3, 4}.symmetric_difference({2, 3, 5})
+3. Set Methods and Functions:
+
+Adding elements: s.add(4)
+Removing elements: s.remove(2) (raises KeyError if not present)
+Discarding elements: s.discard(3) (does not raise error if not present)
+4. Set Operations using Operators:
+
+Union: {1, 2, 3, 4, 5} | {3, 4, 5, 6}
+Intersection: {1, 2, 3, 4, 5} & {3, 4, 5, 6}
+Difference: {1, 2, 3, 4} - {2, 3, 5}
+Symmetric Difference: {1, 2, 3, 4} ^ {2, 3, 5}
+5. Immutability and Sets:
+
+Sets can be modified but elements must be immutable.
+Example: frozenset is used for immutable sets.
+6. Frozen Sets:
+
+Frozen sets are immutable.
+Example: cities = frozenset(["Frankfurt", "Basel","Freiburg"])
+7. Removing Duplicates using Sets:
+
+Converting a list to a set removes duplicates.
+Example: unique_restaurants = set(["McDonald's", "Burger King", "McDonald's", "Chicken Chicken"])
+8. Real-world Applications:
+
+Using sets for operations where uniqueness is important, like finding unique items in a list.
