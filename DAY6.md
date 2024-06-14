@@ -1,5 +1,5 @@
 Daily Diary
-Text-Based Adventure Game
+**Text-Based Adventure Game**
 Date: June 12, 2024
 
 Progress:
@@ -15,7 +15,8 @@ Correctly updating the inventory.
 Next Steps:
 
 Add more rooms and interactions with objects and characters.
-Contact Book Application
+
+**Contact Book Application**
 
 
 Progress:
@@ -32,9 +33,8 @@ Next Steps:
 
 Improve the search functionality.
 Enhance the user interface.
-Hangman Game
 
-
+**Hangman Game**
 Progress:
 
 Stored the word to be guessed and tracked guessed letters.
@@ -48,7 +48,9 @@ Next Steps:
 
 Add more words to the word list.
 Improve the user interface.
-Expense Tracker
+
+
+**Expense Tracker**
 
 Progress:
 
